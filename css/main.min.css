@@ -61,7 +61,7 @@ ul, ol {
 }
 .header__tel{
     font-family: "Open Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: 0%;
@@ -214,6 +214,8 @@ iframe{
     padding-left: 16px;
 }
 
+
+
 .ishlaymiz__container{
     padding-top: 74px;
     padding-bottom: 48px;
@@ -224,16 +226,30 @@ iframe{
     font-weight: 600;
     font-size: 24px;
     line-height: 130%;
-    letter-spacing: 0%;
-    text-align: center;    
+    letter-spacing: 0%;  
 }
+.ishlaymiz__text{
+    width: 800px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #000000;  
+    padding-top: 16px;
+    margin-left: 130px;
+}
+
 
 .talablar__container{
     padding-top: 24px;
     padding-bottom: 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
 }
+
+
 
 .talablar__container img{
     width: 300px;
@@ -261,11 +277,14 @@ iframe{
     padding-top: 8px;
 }
 
+
+
 .taklif__container{
     padding-top: 24px;
     padding-bottom: 48px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 60px;
 }
 
 .taklif__container img{
@@ -273,15 +292,16 @@ iframe{
     height: 224px;
 }
 
+
 .taklif__title{
+    width: 355px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
     letter-spacing: 0%;  
     color: #000000;
-    width: 270px;
-    padding-top: 121px;
+    padding-top: 83px;
     text-align: center;
 }
 .taklif__text{
@@ -293,4 +313,201 @@ iframe{
     color: #000000;
     padding-top: 8px;
 }
+
+
+.loyiha__container{
+    padding-top: 24px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.loyiha__container img{
+    width: 300px;
+    height: 224px;
+}
+
+
+.loyiha__title{
+    width: 355px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;  
+    color: #000000;
+    padding-top: 83px;
+    text-align: center;
+}
+.loyiha__text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+    color: #000000;
+    padding-top: 8px;
+}
+
+.sifat__container{
+    padding-top: 24px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.sifat__container img{
+    width: 300px;
+    height: 171px;
+}
+
+
+.sifat__title{
+    width: 355px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;  
+    color: #000000;
+    padding-top: 83px;
+    text-align: center;
+}
+.sifat__text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+    color: #000000;
+    padding-top: 8px;
+}
+
+
+.quvvat__container{
+    padding-top: 24px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.quvvat__container img{
+    width: 300px;
+    height: 232px;
+}
+
+
+.quvvat__title{
+    width: 355px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;  
+    color: #000000;
+    padding-top: 83px;
+    text-align: center;
+}
+.quvvat__text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+    color: #000000;
+    padding-top: 8px;
+}
+
+.quvvat__btn{
+    padding-top: 40px;
+    padding-bottom: 55px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    gap: 10px;
+    border-radius: 5px;    
+    background: #00BAFC;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+    margin: 40px 650px;
+}
+
+
+.footer{
+    margin-top: 56px;
+    background: black;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center;  hamma item larni balansga solib teng qiladi */
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer__item{
+    text-align: left;
+    width: 320px;
+}
+
+.footer__item__title{
+    font-family:" Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;   
+    color: #FFFFFF; 
+}
+
+.footer__item__text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;   
+    padding-top: 16px; 
+}
+
+.footer__box{
+    width: 143px;
+}
+
+.footer__box_title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #FFFFFF; 
+    padding-bottom: 16px;   
+}
+
+.footer__list li a{
+    font-family:" Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+} 
+
+.footer__list{
+    font-family:" Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+
 
