@@ -1,0 +1,600 @@
+@import url(https://fonts.googleapis.com/css2?family=Muli:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+}
+img{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 1276px;
+}
+
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+}
+
+.header__container{
+    padding: 10px 0;
+}
+.header__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 40px;
+}
+.header__link{
+    color: #1f1534;
+    font-family: "Muli", sans-serif;
+    font-size: 18px;
+    font-style: normal; /*yonboshlatish*/
+    font-weight: 400;  /*semiz oriqligi*/
+    line-height: normal;  /*yozuvlarnii oraligi*/
+    opacity: 0.5;
+}
+
+.header__link:hover{
+    opacity: 1;
+}
+
+.hero__container{
+    padding-top: 141px;
+    padding-bottom: 167px;
+    background-image: url(../img/tr.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 693px 617px;
+}
+
+.hero__title{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    font-style: normal;
+    line-height: 56px;
+    letter-spacing: 0%;
+    width: 426px;
+    color: #000;
+}
+
+.hero__text {
+    padding: 26px 0 50px 0;
+    width: 445px;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+.hero__btn{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+    background-color: #458FF6;
+    width: 200px;
+    border: 0px;
+    border-radius: 55px;
+    opacity: 1;
+}
+.hero__btn:hover{
+    border: 1px solid rgb(137, 137, 207);
+    background-color: rgb(244, 244, 251);
+    color: #458FF6;
+    cursor: pointer;
+}
+
+/*services start*/
+
+.services{
+    background-image: url(../img/picture.png);
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+.services__container{
+    text-align: center;
+    padding-top: 169px;
+    padding-bottom: 201px;
+}
+.services_title{
+    color: #000000;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    font-style: normal;   
+}
+
+.services__title::after {
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    margin-top: 26px;
+    margin-bottom: 33px;
+    flex-shrink: 0;
+}
+.services__text{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-style: normal;
+    color: #7D7987;
+    width: 952px;
+    margin-left: 133px;
+}
+
+.services__list{
+    padding-top: 80px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
+
+.services__item {
+    padding: 54px 45px 46px 39px;
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    text-align: left;
+}
+
+.services__item__desc{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;  
+    color: #000000;   
+}
+
+.services__item__text{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%; 
+    color: #7D7987;   
+}
+
+.services__link{
+    margin-top: 69px;
+    display: inline-block;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #458FF6;
+    border: 1.4px solid #458FF6;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+}
+
+.services__link:hover{
+    background-color: #458FF6;
+    color: #FFFFFF;
+}
+
+/*services end*/
+
+/*providers start*/
+
+.providers__container{
+    padding-left: 787px;
+    padding-bottom: 117px;
+    background-image: url(../img/providers\ img.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 650px 477px;
+    text-align: left;
+}
+
+.providers__title{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #000000;
+    
+}
+
+.providers__title::after {
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    flex-shrink: 0;
+    margin-top: 26px;
+    margin-bottom: 31px;
+}
+
+.providers__text{
+    padding: 25px 0 46px 0;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #7D7987;
+    width: 450px;    
+    text-align: left;
+}
+
+.providers__link{
+    margin-top: 37px;
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #458FF6;
+}
+
+.providers__link:hover{
+    background-color: #458FF6;
+    color: #FFFFFF;
+}
+
+/*providers end*/
+
+/*download start*/
+
+.download__container{
+    padding-top: 296px;
+    padding-bottom: 274px;
+    background-image: url(../img/download\ pic.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: 665px 434px;
+    text-align: left;
+}
+
+.download__title{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #000000;  
+    width: 254px;  
+}
+
+.download__title::after{
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.download__text{
+    padding: 31px 0 71px 0;
+    width: 420px;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #7D7987;  
+    text-align: left;
+}
+
+.download__link{
+    display: inline-block;
+    width: 200px;
+    height: 56px;
+    border: 2px solid #458FF6;
+    border-radius: 55px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #458FF6;
+    background: url(../img/downlider.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    
+}
+
+/*download end*/
+
+/*customer-start*/
+
+.customer{
+    padding-top: 266px;
+    padding-bottom: 221px;
+}
+
+.customer__container{
+    padding: 64px 118px 79px 118px;
+    background:linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.customer__title{
+    text-align: center;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #FFFFFF;    
+}
+
+.customer__title::after{
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #FFFFFF;
+    flex-shrink: 0;
+    margin-top: 30px;
+}
+
+.customer__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+}
+
+.cutomer__box__left{
+    display: flex;
+    align-items: center;
+}
+
+.cutomer__box__left img{
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.cutomer__box__left div{
+    padding-left: 29px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 48px;
+    letter-spacing: 0%;    
+    color: #FFFFFF; 
+}
+
+.cutomer__box__left div p{
+    color: #FFFFFFD9;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    letter-spacing: 0%;    
+}
+
+.customer__text{
+    width: 420px;
+    font-family: "Muli";
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #fff;
+}
+/*customer-end*/
+
+/*article-start*/
+
+.artiucle__container{
+    padding-top: 79px;
+    padding-bottom: 201px;
+    text-align: center;
+}
+
+.article__title{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    color: #000000;  
+    text-align: center;
+}
+.article__title::after{
+    content: '';
+    display: inline-block;
+    border-radius: 5px;
+    width: 56px;
+    height: 2px;
+    background: #000000;
+    margin-top: 26px;
+    margin-bottom: 79px;
+    flex-shrink: 0;
+}
+
+.article__list{
+    justify-content: center;
+    display: flex;
+    gap: 34px;
+}
+
+.article__item{
+    /* padding: 0px 51px 35px 33px; */
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    text-align: left;
+}
+.article__item img{
+    width: 350px;
+    height: 272px;
+    
+}
+
+.article__item__box{
+    padding: 24px 33px;
+}
+
+.article__item__desc{
+    width: 265px;
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #000000;   
+   
+}
+
+.article__item__text{
+    width: 266px;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;   
+    color: #7D7987; 
+}
+
+.article__link{
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #4089ED;    
+    background: url(../img/pointer.svg);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    display: inline-block;
+    width: 120px;
+}
+
+.article__list__a{
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6; 
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #458FF6; 
+    display: inline-block;
+    text-align: center;
+    margin-top: 69px;
+    margin-left: 530px;
+}
+
+/*article-end*/
+
+/*footer-start*/
+
+.footer{
+    margin-top: 201px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /*hamma item larni balansga solib teng qiladi*/
+    padding-top: 118px;
+    padding-bottom: 113px;
+}
+
+.footer__item{
+    text-align: left;
+}
+
+.footer__item img{
+}
+
+.footer__item p{
+    width: 391px;
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+     color: #FFFFFF;    
+     padding-top: 21px;
+}
+
+.footer__box h2{
+    font-family: "Muli", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+    letter-spacing: 0%;
+    color: #FFFFFF;    
+}
+
+.footer__box a{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: #FFFFFF; 
+    opacity: 0.7;   
+}
+
+.footer__box a:hover{
+    font-family: "Muli", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    color: #FFFFFF;    
+    opacity: 1;
+}
+
+
+
+/*footer-end*/
